@@ -1,4 +1,5 @@
 #include "snowman.hpp"
+
 using namespace std;
 
 namespace ariel {
