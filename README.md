@@ -1,5 +1,7 @@
 <div dir="rtl" lang="he">
 
+this is an implementaion for snowman, based on input from the user.
+
 # אנשי השלג
 
 כיתבו פונקציה המציירת איש-שלג!
