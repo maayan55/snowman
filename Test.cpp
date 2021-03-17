@@ -1,13 +1,9 @@
 #include "doctest.h"
-
 #include "snowman.hpp"
-
 using namespace ariel;
 
 #include <string>
-
 #include <algorithm>
-
 using namespace std;
 
 TEST_CASE ("Good snowman code") {
@@ -35,7 +31,7 @@ TEST_CASE ("Bad snowman code") {
     CHECK_THROWS(snowman(2413));
     CHECK_THROWS(snowman(55));
 
-    CHECK_THROWS(snowman(4321432143));
+    CHECK_THROWS(snowman(432143214));
     CHECK_THROWS(snowman(1223334444));  
     CHECK_THROWS(snowman(413232441));
     CHECK_THROWS(snowman(112324341));

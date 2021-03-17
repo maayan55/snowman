@@ -3,5 +3,5 @@
 using namespace std;
 
 namespace ariel {
-string snowman (int snow);
+    string snowman (int num);
 }
